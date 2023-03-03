@@ -1,0 +1,17 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/id1coc"
+        android:title="@string/id1coc" />
+    <item
+        android:id="@+id/id2squa"
+        android:title="@string/id2squa" />
+    <item
+        android:id="@+id/id3que"
+        android:title="@string/id3que" />
+    <item
+        android:id="@+id/id4rin"
+        android:title="@string/id4rin" />
+</menu>

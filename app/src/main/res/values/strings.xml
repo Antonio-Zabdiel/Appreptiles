@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Appreptiles</string>
+    <string name="id1coc">Cocodrilos</string>
+    <string name="id2squa">Squamatas</string>
+    <string name="id3que">Quelenios</string>
+    <string name="id4rin">Rinocefalos</string>
 </resources>
