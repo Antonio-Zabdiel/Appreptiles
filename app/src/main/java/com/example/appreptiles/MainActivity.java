@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if(id == R.id.id1coc){
-            Toast.makeText(  this,  "clicleaste en cocodrilos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(  this,  R.string.id1coc, Toast.LENGTH_SHORT).show();
         }else if(id == R.id.id2squa){
-            Toast.makeText(  this,  "clicleaste en aquamatas", Toast.LENGTH_SHORT).show();
+            Toast.makeText(  this,  R.string.id2squa, Toast.LENGTH_SHORT).show();
         }else if(id == R.id.id3que){
-            Toast.makeText(  this,  "clicleaste en quelenios", Toast.LENGTH_SHORT).show();
+            Toast.makeText(  this,  R.string.id3que, Toast.LENGTH_SHORT).show();
         }else if(id == R.id.id4rin){
-            Toast.makeText(  this,  "clicleaste en rinocefalos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(  this,  R.string.id4rin, Toast.LENGTH_SHORT).show();
         }
 
         return super.onOptionsItemSelected(item);
