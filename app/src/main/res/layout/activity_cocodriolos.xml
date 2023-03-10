@@ -103,4 +103,23 @@
         app:layout_constraintVertical_bias="0.0"
         tools:src="@drawable/img1" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="106dp"
+        android:layout_height="393dp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineCocoH3"
+        app:layout_constraintTop_toTopOf="@+id/guidelineCocoH2"
+        app:srcCompat="@drawable/img2"
+        tools:layout_editor_absoluteX="288dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="122dp"
+        android:layout_height="432dp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineCocoH4"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineCocoV3"
+        app:layout_constraintStart_toStartOf="@+id/guidelineCocoV2"
+        app:layout_constraintTop_toTopOf="@+id/guidelineCocoH3"
+        app:srcCompat="@drawable/img3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

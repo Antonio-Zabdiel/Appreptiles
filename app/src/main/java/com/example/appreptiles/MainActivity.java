@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(id == R.id.id1coc){
             Toast.makeText(  this,  R.string.id1coc, Toast.LENGTH_SHORT).show();
+            goCocodrilos(item.getActionView());
         }else if(id == R.id.id2squa){
             Toast.makeText(  this,  R.string.id2squa, Toast.LENGTH_SHORT).show();
         }else if(id == R.id.id3que){
