@@ -1,10 +1,13 @@
 package com.example.appreptiles;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,5 +40,25 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void goCocodrilos(View view){
+        Intent i = new Intent( MainActivity.this, Cocodrilo.class);
+        startActivity(i);
+    }
+
+    public void goSquamatas(View view){
+        Intent i = new Intent( MainActivity.this, Squamatas.class);
+        startActivity(i);
+    }
+
+    public void goQuelenios(View view){
+        Intent i = new Intent( MainActivity.this, Quelenios.class);
+        startActivity(i);
+    }
+
+    public void goRinocefalos(View view){
+        Intent i = new Intent( MainActivity.this, Rinocefalos.class);
+        startActivity(i);
     }
 }
