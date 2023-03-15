@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Appreptiles"
         tools:targetApi="31">
         <activity
+            android:name=".Quelenios3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Quelenios2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Rinocefalos"
             android:exported="false">
             <meta-data

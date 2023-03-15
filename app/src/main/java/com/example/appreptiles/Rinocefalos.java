@@ -2,7 +2,9 @@ package com.example.appreptiles;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Rinocefalos extends AppCompatActivity {
 
@@ -10,5 +12,10 @@ public class Rinocefalos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rinocefalos);
+    }
+
+    public void goMain(View view){
+        Intent i = new Intent( Rinocefalos.this, MainActivity.class);
+        startActivity(i);
     }
 }

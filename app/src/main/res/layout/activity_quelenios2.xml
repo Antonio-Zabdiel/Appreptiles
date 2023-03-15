@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Quelenios">
+    tools:context=".Quelenios2">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineCocoV1"
@@ -128,14 +128,14 @@
         app:layout_constraintEnd_toStartOf="@+id/guidelineCocoV3"
         app:layout_constraintStart_toStartOf="@+id/guidelineCocoV1"
         app:layout_constraintTop_toTopOf="@+id/guidelineCocoH"
-        app:srcCompat="@drawable/img7" />
+        app:srcCompat="@drawable/img8" />
 
     <TextView
         android:id="@+id/rinocefalos"
         android:layout_width="368dp"
         android:layout_height="207dp"
         android:autoSizeTextType="uniform"
-        android:text="@string/tortuga_de_orejas_rojas"
+        android:text="@string/trachemys_scriptas_scripta"
         app:layout_constraintBottom_toTopOf="@+id/guidelineCocoH"
         app:layout_constraintEnd_toStartOf="@+id/guidelineCocoV3"
         app:layout_constraintHorizontal_bias="1.0"
