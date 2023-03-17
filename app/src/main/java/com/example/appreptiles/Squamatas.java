@@ -19,17 +19,17 @@ public class Squamatas extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void goSqa(View view){
+    public void goSqa1(View view){
         Intent i = new Intent( Squamatas.this, Squamatas.class);
         startActivity(i);
     }
 
-    public void goSqa1(View view){
+    public void goSqa2(View view){
         Intent i = new Intent( Squamatas.this, Squamatas2.class);
         startActivity(i);
     }
 
-    public void goSqa2(View view){
+    public void goSqa3(View view){
         Intent i = new Intent( Squamatas.this, Squamatas3.class);
         startActivity(i);
     }

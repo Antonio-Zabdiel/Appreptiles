@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="594dp" />
+        app:layout_constraintGuide_percent="0.75" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineCocoH4"
@@ -80,7 +80,7 @@
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="goSqa"
+        android:onClick="goSqa1"
         android:text="heloderma horridum"
         app:layout_constraintBottom_toTopOf="@+id/guidelineCocoH5"
         app:layout_constraintEnd_toStartOf="@+id/guidelineCocoV2"
@@ -91,7 +91,7 @@
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="goSqa1"
+        android:onClick="goSqa2"
         android:text="heloderma charlesbogerti"
         app:layout_constraintBottom_toTopOf="@+id/guidelineCocoH5"
         app:layout_constraintEnd_toStartOf="@+id/guidelineCocoV5"
@@ -102,8 +102,8 @@
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="goSqa2"
-        android:text="heloderma_alvarezi"
+        android:onClick="goSqa3"
+        android:text="heloderma alvarezi"
         app:layout_constraintBottom_toTopOf="@+id/guidelineCocoH5"
         app:layout_constraintEnd_toStartOf="@+id/guidelineCocoV3"
         app:layout_constraintStart_toStartOf="@+id/guidelineCocoV5"
@@ -136,7 +136,7 @@
         android:layout_height="207dp"
         android:autoSizeTextType="uniform"
         android:text="@string/heloderma_horridum"
-        app:layout_constraintBottom_toTopOf="@+id/guidelineCocoH"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineCocoH3"
         app:layout_constraintEnd_toStartOf="@+id/guidelineCocoV3"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guidelineCocoV1"

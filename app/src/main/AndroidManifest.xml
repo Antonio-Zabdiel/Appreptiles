@@ -69,6 +69,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".Squamatas2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Cocodrilo"
             android:exported="false">
             <meta-data
